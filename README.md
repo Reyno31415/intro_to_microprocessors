@@ -1,4 +1,5 @@
- Introduction to Microprocessors
+ ## Introduction to Microprocessors
+ 
  Greg Reynolds January 2018
 
   This repository contains the documentation for a short course showing the need for switch debouncing
