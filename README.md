@@ -22,3 +22,5 @@ One of the many attractions of solving hardware problems with software is the ha
 
 In engineering, the first time a thing is made, it is usually referred to as the prototype.
 In electronics, the prototype is the components in the design connected together to try out the design and see if it works.  These boards provide a relatively convenient way to connect components together. There is an array of square holes on 0.1” spacing. Under the holes are U shaped channels that run under groups of holes. Pushing a wire into a hole drives it into the channel. Another wire driven into another hole that has the same channel under it connects the wires. A drawing below shows what holes have common channels.
+
+The following diagrams show the connections of protoboards.
