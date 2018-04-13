@@ -26,3 +26,23 @@ In electronics, the prototype is the components in the design connected together
 The following photo highlights the connections in the protoboard. 
 
 ![Protoboard Connections](https://github.com/Reyno31415/intro_to_microprocessors/blob/master/proto2.png)
+
+## The Arduino Nano
+
+ This is little printed circuit board with 25 components. Most important to the user is the Atmel ATmega328 microcontroller and a serial to USB chip that allows us to communicate with the microcontroller.
+	The Nano and the switch are probably already mounted on the prototyping board. 
+ 
+ ## The Switch
+ 
+ The switch is soldered to a very small printed circuit board to allow properly spaced pins to be securely inserted in the prototyping board. The switch is probably already inserted into the proto board.
+ 
+ ## The LED
+  LEDs only work when the current flows in the right direction so correct insertion into the proto board is critical.  The negative terminal is identified by a small flat portion on the body of the LED. Look carefully. You can usually catch the flat in the light if you turn the LED slowly in your fingers. I find it easier to closely examine the LED for its flat edge before inserting it, and then marking that side of the LED with a black felt tip pen. But then again, your eyes are probably better than mine.
+  
+ ## The Resistor
+  A resistor must be put into line with the LED. The Nano drives too much current into the LED, abusing it. The resistor limits the current.
+  
+  ## The Arduino IDE (Integrated Development Environment)
+  One of the reasons for the popularity of the Arduino series of microcontroller boards is a very friendly (compared with other IDEs) programming interface. This IDE must be installed on the PC that you will use. As well, the USB driver for the USB port on the Nano must also be installed on the PC.
+The Arduino Programmer’s Notebook should also be installed for your use. You are encouraged to study this notebook in detail at home. It will give you a very good overview of what you can make the Nano do.
+     
