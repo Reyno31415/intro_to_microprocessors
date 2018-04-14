@@ -78,3 +78,28 @@ STEP AWAY FROM THE COMPUTER! Unless you are doing something fairly simple or you
 The following diagram show the placement of components on the protoboards.
 
 ![Components](https://github.com/Reyno31415/intro_to_microprocessors/blob/master/NanoV2_bb.jpg)
+
+## A Demonstration of the Serial Port on the Nano
+
+The most useful technique used to debug programs is to put in a command that prints out the value of some significant variable in the program. You then use the Serial Monitor tool under Tools in the IDE to look at this variable. Page 29 of the Notebook describes the serial port commands.
+	Some of the students found this a useful way to better understand the millis()  function (see page 27 in the Notebook) that you will need to complete this task. Write and load the following program into the Nano.
+
+
+void setup() {
+  Serial.begin(9600); // Enable the serial port 
+
+}
+
+void loop() {
+
+  Serial.println(millis()); //Print out the value of the millis() function
+  
+  delay(1000); // Wait one second (1000 milliseconds)
+
+}
+
+As does all Arduino programs, the first function sets up the Nano configuration. In this case the serial port is turned on. Usually, the Nano starts running the program as soon as it is loaded. But when the serial port is turned on, the program does not run until the Serial Monitor is opened so that you can see all the output from the program from the very beginning.
+
+The loop function loops continuously. It’s the “motor” of the processor. It prints out the value of
+the millis() function once a second. Examining this output might help you understand what it does.  
+	
