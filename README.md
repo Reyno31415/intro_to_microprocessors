@@ -49,4 +49,32 @@ The Arduino Programmer’s Notebook should also be installed for your use. You a
 If the IDE and the notebook are not on your computer, it will be necessary for you to install them from the Arduino website. Google “Arduino IDE Download” and “Arduino Programming Notebook”.
 
 ## Steps to Follow
-     
+
+1. Open the IDE.  Go to ArduinoIDE/Arduino-1.6.4-windows/Arduino-1.6.4/Arduino.exe and double click. Pull down “File” and select “Preferences”. The first item is the “Sketchbook location”.  This is the location of the programs (Arduino calls programs “sketches” so as not to scare off the artists in the group) you use and write. This can be left or changed. It must have a folder called “Arduino”. Create one if there isn’t one. In this folder create two folders called “SimpleToggle_PB_LED” and “Simple_PB_LED”.  From my Github site “Reyno31415”get the files “SimpleToggle_PB_LED.ino” and    “Simple_PB_LED_V2.ino” and place them in the folders with the corresponding names. 
+
+Now in the IDE, when you pull down “File” and hover over “Sketchbook” these  two programs will appear and can be selected.
+
+2. Most of the grade 12 computers have the necessary USB driver that the Nano needs. To confirm this, plug the Nano into an USB port. Open the PC’s Control Panel, and go to Drivers and Printers. At the bottom, under Unspecified, should be USB-SERIAL CH340 (COMx). Note the COM number. This number could change each time the Nano is plugged in again.
+
+3.Pull down File, Examples, Basics, Blink. Confirm the connection by uploading (arrow button at the top of the IDE widow) the Blink program that makes the LED on the Nano blink. If you like, you can alter the blink rate by changing the lines DELAY(1000) to DELAY (500).
+
+4.Install the Nano, LED, resistor, push button switch, and connecting wires as shown below
+
+5.Load the program “SimpleToggle_PB_LED” to toggle the LED with the switch. In other words, press once to change the state of the LED. Examine the program.
+
+6.Load the program “SimpleToggle_PB_LED” to toggle the LED with the switch. In other words, press once to change the state of the LED. Examine the program.
+
+7. Carefully examine the operation of this program. It will not work in a reliable manner.
+Your task will be to rewrite the program to make it reliable.
+
+## Teminology
+
+Digital circuits represent the zeroes and ones of the digital world by voltage levels. Zeroes quite often are represented by 0 volts or the ground voltage. Ones by the voltage that powers the circuit. In this case, +5. This voltage is supplied to the Nano microprocessor through the USB connection from the PC. Quite often, engineers will interchange when talking between “+5” with “One” and “Ground” with “Zero”.
+
+## A Word about Programming
+
+STEP AWAY FROM THE COMPUTER! Unless you are doing something fairly simple or you are gifted programmer you do not sit down and immediately start writing the code for a program. You give thought to what you want the processor to do and then express it in a flow diagram or pseudocode or maybe just random thoughts on paper. Then you start coding.
+
+The following diagram show the placement of components on the protoboards.
+
+![Components](
