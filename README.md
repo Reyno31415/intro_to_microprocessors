@@ -46,5 +46,7 @@ The following photo highlights the connections in the protoboard.
   
 The Arduino Programmer’s Notebook should also be installed for your use. You are encouraged to study this notebook in detail at home. It will give you a very good overview of what you can make the Nano do.
 
-If the IDE and the notebook are not on your computer, it will be necessary for you to install them from Arduino website. Google “Arduino IDE Download” and “Arduino Programming Notebook”. 
+If the IDE and the notebook are not on your computer, it will be necessary for you to install them from the Arduino website. Google “Arduino IDE Download” and “Arduino Programming Notebook”.
+
+## Steps to Follow
      
