@@ -77,4 +77,4 @@ STEP AWAY FROM THE COMPUTER! Unless you are doing something fairly simple or you
 
 The following diagram show the placement of components on the protoboards.
 
-![Components](https://github.com/Reyno31415/intro_to_microprocessors/blob/master/proto2.png)
+![Components](https://github.com/Reyno31415/intro_to_microprocessors/blob/master/NanoV2_bb.jpg)
